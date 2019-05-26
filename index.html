@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>NEROFY</title>
+    </head>
+<body>
+
+            
+<div id="flutterwaveContainer">
+    <flutterwave-form 
+    merchant-key="tk_YOUR_MERCHANT_KEY" 
+    api-key="tk_YOUR_API_KEY" 
+    env="development | production"  
+    title="Your store name or a title"
+    description="your description or narration"
+    email="marthysigbenu@gmail.com"
+    amount="700000"
+    currency="NGN | USD | GBP | EUR"
+    validateoption="SMS|VOICE"
+    authmodel="PIN | BVN | RANDOM_DEBIT | VBVSECURECODE | NOAUTH"
+    logo="http://media-curse.cursecdn.com/attachments/141/893/1000px-square_enix_logo.png"
+    country="NG | GH | US | KE | UK"
+    action="http://requestb.in/1kdmoka1"
+    label="Pay"
+    class="u-full-width button-primary" />
+   </div>
+   <form>
+       <button type="button" onClick="payWithRave()">Pay Now</button>
+    </form>
+    <!-- <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script> -->
+    <sricpt src="./script.js"></sricpt>
+    <!-- <script type="text/javascript" src="https://deegmll9vlc5w.cloudfront.net/paybutton/flutterwave-min.js"></script> -->
+</body>
+</html>
